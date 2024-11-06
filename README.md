@@ -16,7 +16,7 @@ JSP prompt is built upon two strategies essential for successful jailbreaking: P
 
 
 <div align="center">
-<img src="https://github.com/YangHao97/JigSawPuzzles/blob/main/resources/prompt.png" width="50%">
+<img src="https://github.com/YangHao97/JigSawPuzzles/blob/main/resources/prompt.png" width="80%">
 </div>
 
 ## Citation
