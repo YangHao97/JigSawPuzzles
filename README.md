@@ -11,6 +11,14 @@ The JSP strategy leverages the multi-turn interaction capability of LLMs to perf
 <img src="https://github.com/YangHao97/JigSawPuzzles/blob/main/resources/process.png" width="50%">
 </div>
 
+### JSP Prompt
+JSP prompt is built upon two strategies essential for successful jailbreaking: Prohibition of Concatenated Question Generation and Inclusion of a Disclaimer. This dual approach enables JSP to effectively bypass the safeguards of LLMs, and induce responses to harmful queries.
+
+
+<div align="center">
+<img src="https://github.com/YangHao97/JigSawPuzzles/blob/main/resources/prompt.png" width="50%">
+</div>
+
 ## Citation
 ```
 @article{yang2024jigsaw,
