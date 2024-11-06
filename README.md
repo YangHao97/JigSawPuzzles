@@ -5,6 +5,12 @@ For safety and ethics concerns, we do not publicly release the complete jailbrea
 ## Jigsaw Puzzles (JSP) Jailbreak
 ### Multi-turn Interactions
 The JSP strategy leverages the multi-turn interaction capability of LLMs to perform jailbreaking. The jailbreaking process starts by inputting JSP prompt into the LLM, and then the split fractions of the harmful question are sequentially fed into the model as inputs in each turn. Once LLMs receive all the fractions, inputting “Begin” triggers LLMs to generate responses.
+
+
+<div align="center">
+<img src="https://github.com/YangHao97/JigSawPuzzles/blob/main/resources/process.png" width="50%">
+</div>
+
 ## Citation
 ```
 @article{yang2024jigsaw,
