@@ -1,7 +1,10 @@
 # Jigsaw Puzzles: Splitting Harmful Questions to Jailbreak Large Language Models
 The repo is for paper [Jigsaw Puzzles: Splitting Harmful Questions to Jailbreak Large Language Models](https://arxiv.org/abs/2410.11459).
 ## Reproducibility
-For safety and ethics concerns, we do not publicly release the complete jailbreak code. Based on the description in our paper, we provide enough details for reproducibility. The data and code access will be granted via submitting a form indicating the researchers’ affiliation and the intention of use.
+For safety and ethics concerns, we do not publicly release the complete jailbreak code, but we provide enough details for reproducibility. The data and code access will be granted via submitting a form indicating the researchers’ affiliation and the intention of use.
+## Jigsaw Puzzles (JSP) Jailbreak
+### Multi-turn Interactions
+The JSP strategy leverages the multi-turn interaction capability of LLMs to perform jailbreaking. The jailbreaking process starts by inputting JSP prompt into the LLM, and then the split fractions of the harmful question are sequentially fed into the model as inputs in each turn. Once LLMs receive all the fractions, inputting “Begin” triggers LLMs to generate responses.
 ## Citation
 ```
 @article{yang2024jigsaw,
