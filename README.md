@@ -27,6 +27,21 @@ We identify and isolate harmful words from their original queries, resulting in 
 <img src="https://github.com/YangHao97/JigSawPuzzles/blob/main/resources/splitting.png" width="80%">
 </div>
 
+### Jailbreak Performance
+
+
+<div align="center">
+<img src="https://github.com/YangHao97/JigSawPuzzles/blob/main/resources/results.png" width="80%">
+</div>
+
+## Benchmark
+We follow the settings of [Zeng et al.](https://arxiv.org/abs/2401.06373) to benchmark JSP jailbreaking with/without defence mechanisms against previous jailbreaking strategies.
+
+
+<div align="center">
+<img src="https://github.com/YangHao97/JigSawPuzzles/blob/main/resources/benchmark.png" width="45%">
+</div>
+
 ## Citation
 ```
 @article{yang2024jigsaw,
