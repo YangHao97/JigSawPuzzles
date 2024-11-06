@@ -1,5 +1,5 @@
 # Jigsaw Puzzles: Splitting Harmful Questions to Jailbreak Large Language Models
-
+The repo is for paper [Jigsaw Puzzles: Splitting Harmful Questions to Jailbreak Large Language Models](https://arxiv.org/abs/2410.11459)
 ## Citation
 ```
 @article{yang2024jigsaw,
